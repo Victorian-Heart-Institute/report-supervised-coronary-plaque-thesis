@@ -1,6 +1,6 @@
 # Report-Supervised Coronary Plaque Classification on Computed Tomography Angiography with Foundation Models: From Whole-Scan to Segment-Level Prediction
 
-Private thesis-code review repository for Allister Lim, Victorian Heart Institute.
+Thesis-code repository for Allister Lim, Victorian Heart Institute.
 The benchmark predicts calcified and non-calcified plaque from CTCA using clinical
 report-derived labels, at four anatomical scales: global (2 outputs), LCA/RCA
 (4), four coronary families (8), and Detailed14 (28).
@@ -123,6 +123,6 @@ do not silently substitute it for the historical reference.
 Clinical imaging/reports cannot be redistributed under the study's ethics terms.
 The local 16-class segmentor and its manually annotated data are not released
 here. Availability of a wrapper does not grant rights to private data, third-party
-code or weights. No open-source licence is granted for this review snapshot;
-publication and licensing require institutional review. This repository is for
-research, not clinical deployment.
+code or weights. Public access does not grant an open-source licence or rights to
+third-party assets; licensing remains subject to author and institutional approval.
+This repository is for research, not clinical deployment.

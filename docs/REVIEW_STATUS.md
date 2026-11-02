@@ -1,4 +1,4 @@
-# Private review snapshot — 2 November 2026
+# Code review status — 2 November 2026
 
 ## Checked
 
@@ -33,8 +33,8 @@
 
 The exported runners require already reviewed manifests and prepared/aligned
 inputs. These boundaries are also described in INPUTS.md and REPRODUCIBILITY.md.
-Do not describe this snapshot as publicly available or fully reproduced while it
-remains private and these validations have not been completed.
+The code is publicly accessible. Public availability does not establish the
+uncompleted reproduction checks above or grant rights to the excluded assets.
 
 Packaging/refactoring and test preparation were assisted by OpenAI Codex. Source
 provenance is retained to support author review; authors remain responsible for

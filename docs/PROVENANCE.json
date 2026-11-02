@@ -1,5 +1,5 @@
 {
-  "status": "private review export; no end-to-end GPU rerun performed",
+  "status": "source-traceable code export; no end-to-end GPU rerun performed",
   "sources": [
     {
       "output": "training/train_classifier.py",
