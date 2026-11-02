@@ -1,0 +1,13 @@
+{
+  "task": "global",
+  "targets": [
+    "calcified",
+    "non_calcified"
+  ],
+  "manifest_sha256": "793f7a4624d798d006c5d59df640b93a3560d67391cd113daf5857f9d5b9f466",
+  "expected_split_counts": {
+    "train": 2035,
+    "val": 260,
+    "test": 246
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "task": "families",
+  "targets": [
+    "LM_calcified",
+    "LM_non_calcified",
+    "LAD_calcified",
+    "LAD_non_calcified",
+    "LCx_calcified",
+    "LCx_non_calcified",
+    "RCA_calcified",
+    "RCA_non_calcified"
+  ],
+  "manifest_sha256": "1755d3686dac1c6e876dc8dc8f23550883fc978c3ceec9e8571c5a521596499a",
+  "expected_split_counts": {
+    "train": 2035,
+    "val": 260,
+    "test": 246
+  }
+}

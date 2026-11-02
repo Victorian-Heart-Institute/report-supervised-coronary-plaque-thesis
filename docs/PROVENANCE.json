@@ -1,0 +1,85 @@
+{
+  "status": "private review export; no end-to-end GPU rerun performed",
+  "sources": [
+    {
+      "output": "training/train_classifier.py",
+      "source_sha256": "0353456f5b42f193f7c7ba162d65eaad9f859fbb00d71b7e535b0ddc66698504",
+      "output_sha256": "9cefd6827d2a89e73e20a5b9d0407916c76582c66a5cf6c5f59b3a76228cfcf4",
+      "changes": [
+        "AST formatting; model, loss, optimiser, training/selection/evaluation logic retained.",
+        "Private dataset/exclusion-ID contracts replaced by portable manifest validation.",
+        "Institutional raw/Cardiac preparation gates replaced by documented input contracts.",
+        "Unused AutoPlaque encoder options removed; upstream code and weights not bundled.",
+        "Black 24.8.0 formatting after export; no semantic changes from formatting."
+      ],
+      "pre_format_output_sha256": "524a631a02cc901b7a2c991737b51073480c070d3fa24a2472a244e949399807"
+    },
+    {
+      "output": "training/train_pooling.py",
+      "source_sha256": "248a1539dfa914a958294b4d999835c84a6d959b5dd1bcd07d0218fc58f85406",
+      "output_sha256": "24850e7b1d785f9c29cb248fe93afbdb89be4d8e607cb7024d5096591511ce2e",
+      "changes": [
+        "AST formatting; model, loss, optimiser, training/selection/evaluation logic retained.",
+        "Private dataset/exclusion-ID contracts replaced by portable manifest validation.",
+        "Institutional raw/Cardiac preparation gates replaced by documented input contracts.",
+        "Unused AutoPlaque encoder options removed; upstream code and weights not bundled.",
+        "Black 24.8.0 formatting after export; no semantic changes from formatting.",
+        "Neutral export terminology; underlying source hash retained. Synthetic mask directory can be supplied explicitly."
+      ],
+      "pre_format_output_sha256": "4d4782e222549718fb3bc661e5c2c78ad87149b23445b03deeb86a2a0016f9b8"
+    },
+    {
+      "output": "training/cardiac_image_model.py",
+      "source_sha256": "c71e4e6e7bba340da6631cd2dc28ba7770740029a1fabab766a03de7636c1714",
+      "output_sha256": "0a7bfeec40ccbeb02d69d04db79afa61efd4c386ee18098faaf0f88e0dd177f9",
+      "changes": [
+        "Copied without modification.",
+        "Black 24.8.0 formatting after export; no semantic changes from formatting."
+      ],
+      "pre_format_output_sha256": "c71e4e6e7bba340da6631cd2dc28ba7770740029a1fabab766a03de7636c1714"
+    },
+    {
+      "output": "training/coronary_pooling.py",
+      "source_sha256": "b846550d5df7547866b7c26e8d6606836b3dadb9a2ffde58e2b3430937f5507a",
+      "output_sha256": "4b2e5760aa8470dec4a3bbeb37572cc228741cce4b0221fd2789fe85d10e8b67",
+      "changes": [
+        "Copied without modification.",
+        "Black 24.8.0 formatting after export; no semantic changes from formatting."
+      ],
+      "pre_format_output_sha256": "b846550d5df7547866b7c26e8d6606836b3dadb9a2ffde58e2b3430937f5507a"
+    },
+    {
+      "output": "training/adapt_synthetic.py",
+      "source_sha256": "629729ca98ccb0c3eb3ca03b21b3e82aec0b9dbdd44ae924e131a119eeaddd79",
+      "output_sha256": "2a164e69c17f31c478b63de7a58fc1b2120955d3b77c19be4a445e426a9ef13d",
+      "changes": [
+        "Only the atomic-checkpoint helper import relocated; no AutoPlaque training code included.",
+        "Historical 2,035 training-scan requirement and relative input layout retained.",
+        "Black 24.8.0 formatting after export; no semantic changes from formatting.",
+        "Neutral export terminology; underlying source hash retained. Synthetic mask directory can be supplied explicitly."
+      ],
+      "pre_format_output_sha256": "f6dcb65ff258fc6a36275864906f8e47489a06387656634546a5c4e1bc712da9"
+    },
+    {
+      "output": "training/metrics.py",
+      "source_sha256": "0353456f5b42f193f7c7ba162d65eaad9f859fbb00d71b7e535b0ddc66698504",
+      "output_sha256": "b4485728d01066233b44ddfbda92e21d080a1251ebeea0057aca5e0762543314",
+      "changes": [
+        "Only summarize and validation_thresholds extracted.",
+        "Black 24.8.0 formatting after export; no semantic changes from formatting."
+      ],
+      "pre_format_output_sha256": "1824a57a249308a48c77babe6b4b3a04d4b38a93cdc0158fcea9b59aa73ba1a0"
+    },
+    {
+      "output": "analysis/bootstrap_core.py",
+      "source_sha256": "63209b98d6fa47d7695e1e7f128bfd6a30e0a1bf1193ca909047f9902fde58d0",
+      "output_sha256": "d889bc66a011c55b784f9681f0347b670ac1bec23046db33a7cee979bc20f923",
+      "changes": [
+        "Only weighted_aucs extracted; private prediction paths omitted.",
+        "Black 24.8.0 formatting after export; no semantic changes from formatting."
+      ],
+      "pre_format_output_sha256": "b20990bf5cbafc40e223f58463dac8677dad1eef17e05334b600de36ea1f3081"
+    }
+  ],
+  "source_paths": "Institutional source paths are retained privately; source checksums identify the historical files."
+}

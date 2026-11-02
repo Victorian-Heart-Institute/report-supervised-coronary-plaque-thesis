@@ -1,0 +1,16 @@
+{
+  "run_id": "cora_pooling_global",
+  "task": "global",
+  "targets": [
+    "calcified",
+    "non_calcified"
+  ],
+  "architecture": "cora",
+  "input_mode": "cora4",
+  "epochs": 40,
+  "amp_dtype": "bfloat16",
+  "contract": "contracts/global.json",
+  "pool_mode": "global",
+  "initialisation": "released_pretrained",
+  "scope": "Portable export of historical runner; private cohort and checkpoints required; not a new training result."
+}

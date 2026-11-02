@@ -1,0 +1,16 @@
+{
+  "run_id": "cardiac_clip_global",
+  "task": "global",
+  "targets": [
+    "calcified",
+    "non_calcified"
+  ],
+  "architecture": "cardiac_clip",
+  "input_mode": "cardiac_raw",
+  "epochs": 40,
+  "amp_dtype": "bfloat16",
+  "contract": "contracts/global.json",
+  "pool_mode": null,
+  "initialisation": "released_pretrained",
+  "scope": "Portable export of historical runner; private cohort and checkpoints required; not a new training result."
+}

@@ -1,0 +1,22 @@
+{
+  "run_id": "cora_pooling_families",
+  "task": "families",
+  "targets": [
+    "LM_calcified",
+    "LM_non_calcified",
+    "LAD_calcified",
+    "LAD_non_calcified",
+    "LCx_calcified",
+    "LCx_non_calcified",
+    "RCA_calcified",
+    "RCA_non_calcified"
+  ],
+  "architecture": "cora",
+  "input_mode": "cora4",
+  "epochs": 40,
+  "amp_dtype": "bfloat16",
+  "contract": "contracts/families.json",
+  "pool_mode": "segment",
+  "initialisation": "released_pretrained",
+  "scope": "Portable export of historical runner; private cohort and checkpoints required; not a new training result."
+}

@@ -1,0 +1,15 @@
+{
+  "task": "territories",
+  "targets": [
+    "LCA_calcified",
+    "LCA_non_calcified",
+    "RCA_calcified",
+    "RCA_non_calcified"
+  ],
+  "manifest_sha256": "ade22fa9b00df7808ae214be539d1aef1a428d3387c261fd34db11bedb6b8c31",
+  "expected_split_counts": {
+    "train": 2035,
+    "val": 260,
+    "test": 246
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "run_id": "cora_synthetic_territories",
+  "task": "territories",
+  "targets": [
+    "LCA_calcified",
+    "LCA_non_calcified",
+    "RCA_calcified",
+    "RCA_non_calcified"
+  ],
+  "architecture": "cora",
+  "input_mode": "cora4",
+  "epochs": 40,
+  "amp_dtype": "bfloat16",
+  "contract": "contracts/territories.json",
+  "pool_mode": null,
+  "initialisation": "synthetic_fixed_epoch_5",
+  "scope": "Portable export of historical runner; private cohort and checkpoints required; not a new training result."
+}

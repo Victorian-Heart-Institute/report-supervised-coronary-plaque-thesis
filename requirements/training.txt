@@ -1,0 +1,16 @@
+# Historical Python 3.11.7 training environment; install CUDA PyTorch separately as documented.
+torch==2.7.1
+torchvision==0.22.1
+numpy==1.26.4
+monai==1.4.0
+nibabel==5.3.2
+SimpleITK==2.4.1
+scikit-learn==1.6.1
+scipy==1.15.3
+pandas==2.2.3
+transformers==4.53.3
+einops==0.8.1
+dynamic-network-architectures==0.4.1
+tqdm==4.67.1
+matplotlib==3.10.3
+pyyaml==6.0.2

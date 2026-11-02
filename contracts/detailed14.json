@@ -1,0 +1,39 @@
+{
+  "task": "detailed14",
+  "targets": [
+    "LM_calcified",
+    "LM_non_calcified",
+    "pLAD_calcified",
+    "pLAD_non_calcified",
+    "mLAD_calcified",
+    "mLAD_non_calcified",
+    "dLAD_calcified",
+    "dLAD_non_calcified",
+    "diagonals_calcified",
+    "diagonals_non_calcified",
+    "pLCx_calcified",
+    "pLCx_non_calcified",
+    "mdLCx_calcified",
+    "mdLCx_non_calcified",
+    "OM_calcified",
+    "OM_non_calcified",
+    "Ramus_calcified",
+    "Ramus_non_calcified",
+    "pRCA_calcified",
+    "pRCA_non_calcified",
+    "mRCA_calcified",
+    "mRCA_non_calcified",
+    "dRCA_calcified",
+    "dRCA_non_calcified",
+    "PDA_calcified",
+    "PDA_non_calcified",
+    "PLB_calcified",
+    "PLB_non_calcified"
+  ],
+  "manifest_sha256": "25cc1a14cc44219c1ad73d89d1fcb8963409f9b0917544c7db764dd2ab014b6e",
+  "expected_split_counts": {
+    "train": 2035,
+    "val": 260,
+    "test": 246
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "global": [
+    "calcified",
+    "non_calcified"
+  ],
+  "territories": [
+    "LCA_calcified",
+    "LCA_non_calcified",
+    "RCA_calcified",
+    "RCA_non_calcified"
+  ],
+  "families": [
+    "LM_calcified",
+    "LM_non_calcified",
+    "LAD_calcified",
+    "LAD_non_calcified",
+    "LCx_calcified",
+    "LCx_non_calcified",
+    "RCA_calcified",
+    "RCA_non_calcified"
+  ],
+  "detailed14": [
+    "LM_calcified",
+    "LM_non_calcified",
+    "pLAD_calcified",
+    "pLAD_non_calcified",
+    "mLAD_calcified",
+    "mLAD_non_calcified",
+    "dLAD_calcified",
+    "dLAD_non_calcified",
+    "diagonals_calcified",
+    "diagonals_non_calcified",
+    "pLCx_calcified",
+    "pLCx_non_calcified",
+    "mdLCx_calcified",
+    "mdLCx_non_calcified",
+    "OM_calcified",
+    "OM_non_calcified",
+    "Ramus_calcified",
+    "Ramus_non_calcified",
+    "pRCA_calcified",
+    "pRCA_non_calcified",
+    "mRCA_calcified",
+    "mRCA_non_calcified",
+    "dRCA_calcified",
+    "dRCA_non_calcified",
+    "PDA_calcified",
+    "PDA_non_calcified",
+    "PLB_calcified",
+    "PLB_non_calcified"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "run_id": "cardiac_clip_territories",
+  "task": "territories",
+  "targets": [
+    "LCA_calcified",
+    "LCA_non_calcified",
+    "RCA_calcified",
+    "RCA_non_calcified"
+  ],
+  "architecture": "cardiac_clip",
+  "input_mode": "cardiac_raw",
+  "epochs": 40,
+  "amp_dtype": "bfloat16",
+  "contract": "contracts/territories.json",
+  "pool_mode": null,
+  "initialisation": "released_pretrained",
+  "scope": "Portable export of historical runner; private cohort and checkpoints required; not a new training result."
+}
